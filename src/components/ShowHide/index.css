@@ -1,0 +1,63 @@
+/* Write your CSS here */
+
+.app-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 45px;
+  font-family: 'Roboto';
+}
+
+.container {
+  display: flex;
+  margin-top: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+}
+
+.each-card {
+  display: flex;
+  flex-direction: column;
+  margin: 15px;
+  align-items: center;
+}
+.first-last-name-card {
+  width: 170px;
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95px;
+  background-color: #fddddb;
+  border-radius: 15px;
+}
+
+.button {
+  background-color: #fddddb;
+  color: #dd1264;
+  border-radius: 5px;
+  font-weight: 600;
+  height: 35px;
+  border: 0;
+}
